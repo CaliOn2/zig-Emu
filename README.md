@@ -20,7 +20,7 @@ Operators:
 - 0110 -> multiply
 - 0111 -> shift left
 - 1000 -> shift right
-- 1001 -> set register
+- 1001 -> set cache value
 - 1010 -> load a byte from storage
 - 1011 -> store a byte in storage
 - 1100 -> get the process counter 
