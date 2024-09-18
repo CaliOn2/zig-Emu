@@ -1,16 +1,16 @@
 # zig-Emu
-a learning project in which i build an emulator or a self made set of instructions using a 16x16bit cache and a 64kb storage 
+a learning project in which i build an emulator or a self made set of instructions using a 16x16bit cache and a 64kb storage  
 
-Instructions are Made of 4 segments of 4 bytes with a length of 4 bits
-bits 0-4: operator
-bits 5-8: cache adress of results
-bits 9-12: cache adress of bits doing the operation
-bits 13-16: cache adress of bits getting operated on
+Instructions are Made of 4 segments of 4 bytes with a length of 4 bits  
+bits 0-4: operator  
+bits 5-8: cache adress of results  
+bits 9-12: cache adress of bits doing the operation  
+bits 13-16: cache adress of bits getting operated on  
 
-a program ends when an instruction is all 0 bits
+a program ends when an instruction is all 0 bits  
 example operation:  
-ad:2 ad:3 ad:1 op
-0010 0001 0000 0110
+ad:2 ad:3 ad:1 op  
+0010 0001 0000 0110  
 here register 2 (0010) is multiplied (0110) by register 1 (0001) and the result is put into register 0 (0000)
 
 Operators:
